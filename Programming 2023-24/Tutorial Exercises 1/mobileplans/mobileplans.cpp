@@ -28,6 +28,8 @@ int main()
     double minutes = 0;
     double data = 0;
     double additionalMinutesCost = 0;
+    double additionalDataCost = 0;
+    double totalCost = 0;
     string bestDeal;
     cout << "Please enter your name, your package choice and how many minutes and data were used\n";
     cin >> name;
@@ -39,10 +41,24 @@ int main()
     case 'A': {
         if (minutes > 450) {
             additionalMinutesCost = (minutes - planAmins) * planAadditionalMinsCost;
+            return additionalMinutesCost;
         }
         else {
             additionalMinutesCost = 0;
+            return additionalMinutesCost;
         }
+        if (data > 1000) {
+            additionalDataCost = (data - planAdata) * planAadditionalDataCost;
+            return additionalDataCost;
+        }
+        else {
+            additionalDataCost = 0;
+            return additionalDataCost;
+        }
+
+        cout << "Customers Bill\n";
+        cout << "Plan " << package;
+        cout << "Total cost for this month is: $" << totalCost;
     }
             break;
     case 'B': {
