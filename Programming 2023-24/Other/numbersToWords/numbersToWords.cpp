@@ -6,38 +6,44 @@ using namespace std;
 int main()
 {
     int number;
-
-    cout << "Enter a number between 11 and 20\n";
-    cin >> number;
-    if ((number >= 11) && (number <= 20)) {
-        //valid input
-        cout << "The number \"" << number << "\" in words is: ";
-        switch (number) {
-        case 11: cout << "Eleven\n";
-            break;
-        case 12: cout << "Twelve\n";
-            break;
-        case 13: cout << "Thirteen\n";
-            break;
-        case 14: cout << "Fourteen\n";
-            break;
-        case 15: cout << "Fifteen\n";
-            break;
-        case 16: cout << "Sixteen\n";
-            break;
-        case 17: cout << "Seventeen\n";
-            break;
-        case 18: cout << "Eighteen\n";
-            break;
-        case 19: cout << "Nineteen\n";
-            break;
-        case 20: cout << "Twenty\n";
-            break;
+    char flag = ' ';
+    //for (int i = 0; i < 2; i++) {
+    do {
+        cout << "Enter a number between 11 and 20\n";
+        cin >> number;
+        if ((number >= 11) && (number <= 20)) {
+            //valid input
+            cout << "The number \"" << number << "\" in words is: ";
+            switch (number) {
+            case 11: cout << "Eleven\n";
+                break;
+            case 12: cout << "Twelve\n";
+                break;
+            case 13: cout << "Thirteen\n";
+                break;
+            case 14: cout << "Fourteen\n";
+                break;
+            case 15: cout << "Fifteen\n";
+                break;
+            case 16: cout << "Sixteen\n";
+                break;
+            case 17: cout << "Seventeen\n";
+                break;
+            case 18: cout << "Eighteen\n";
+                break;
+            case 19: cout << "Nineteen\n";
+                break;
+            case 20: cout << "Twenty\n";
+                break;
+            } 
         }
-    }
-    else {
-        //invalid input
-        cout << "The number must be between eleven and twenty.\n";
-    }
+        else {
+            //invalid input
+            cout << "The number must be between eleven and twenty.\n";
+        }
+        cout << "Would you like to continue? Y or N?\n";
+        cin >> flag;
+    } while (toupper(flag) == 'Y');
+    //}
 }
 

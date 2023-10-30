@@ -62,11 +62,32 @@ int main()
     }
             break;
     case 'B': {
+        if (minutes > 450) {
+            additionalMinutesCost = (minutes - planBmins) * planBadditionalMinsCost;
+            return additionalMinutesCost;
+        }
+        else {
+            additionalMinutesCost = 0;
+            return additionalMinutesCost;
+        }
+        if (data > 1000) {
+            additionalDataCost = (data - planBdata) * planBadditionalDataCost;
+            return additionalDataCost;
+        }
+        else {
+            additionalDataCost = 0;
+            return additionalDataCost;
+        }
 
+        cout << "Customers Bill\n";
+        cout << "Plan " << package;
+        cout << "Total cost for this month is: $" << totalCost;
     }
             break;
     case 'C': {
-
+        cout << "Customers Bill\n";
+        cout << "Plan " << package;
+        cout << "Total cost for this month is: $" << totalCost;
     }
     default: {
         cout << "Please enter a correct package\n";
