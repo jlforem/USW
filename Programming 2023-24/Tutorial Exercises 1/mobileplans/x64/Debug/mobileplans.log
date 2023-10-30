@@ -1,0 +1,7 @@
+﻿  mobileplans.cpp
+C:\University of South Wales\githubRepos\USW\Programming 2023-24\Tutorial Exercises 1\mobileplans\mobileplans.cpp(55,20): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+C:\University of South Wales\githubRepos\USW\Programming 2023-24\Tutorial Exercises 1\mobileplans\mobileplans.cpp(59,20): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+C:\University of South Wales\githubRepos\USW\Programming 2023-24\Tutorial Exercises 1\mobileplans\mobileplans.cpp(63,20): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+C:\University of South Wales\githubRepos\USW\Programming 2023-24\Tutorial Exercises 1\mobileplans\mobileplans.cpp(67,20): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+C:\University of South Wales\githubRepos\USW\Programming 2023-24\Tutorial Exercises 1\mobileplans\mobileplans.cpp(88,12): warning C4551: function call missing argument list
+  mobileplans.vcxproj -> C:\University of South Wales\githubRepos\USW\Programming 2023-24\Tutorial Exercises 1\mobileplans\x64\Debug\mobileplans.exe
