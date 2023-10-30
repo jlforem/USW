@@ -22,6 +22,6 @@ int main()
     //calculation converting the inches to meters, uses 0.0254 as found in a conversion table at https://www.unitconverters.net/length/inches-to-meters.htm
     meters = inches * 0.0254;
     // prints out the height in meters using the iomanip function setprecision to round the meters to 3 figures, to format it the same as meters and centimeters
-    double metersRounded = round(meters * 100.00) / 100.00;
-    std::cout << "Height in meters is " << metersRounded << "m.\n";
+    
+    std::cout << "Height in meters is " << setprecision(2) << fixed << meters << "m.\n";
 }
