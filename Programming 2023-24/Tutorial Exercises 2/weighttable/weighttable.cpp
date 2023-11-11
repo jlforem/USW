@@ -2,6 +2,7 @@
 //
 
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 double toPounds(double ton) {
@@ -11,16 +12,19 @@ double toPounds(double ton) {
 double toKilogram(double ton) {
     return ton * 1016.05;
 }
-
+//make use of setprecision && setwidth
 int main()
 {
-
-    for (double ton = 2; ton < 21; ton += 2) {
-        double pounds = toPounds(ton);
+    cout << "|--------------------------------|\n";
+    cout << "|Tons      |Pounds    |Kilograms |\n";
+    cout << "|--------------------------------|\n";
+    for (int ton = 2; ton < 21; ton += 2) {
+        int pounds = toPounds(ton);
         double kilograms = toKilogram(ton);
         
-        cout << "|" << ton << "\t|" << pounds << "\t|" << kilograms << "  |\n";
+        cout << left << "|" << setw(10) << ton  << "|" << setw(10) << pounds  << "|" << setw(10) << kilograms <<"|\n";
     }
+    cout << "|--------------------------------|";
 }
 
 
