@@ -1,0 +1,3 @@
+﻿  weighttable.cpp
+C:\Users\jorda\OneDrive\Documents\University of South Wales\githubRepos\USW\Programming 2023-24\Other\weighttable\weighttable.cpp(19,20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  weighttable.vcxproj -> C:\Users\jorda\OneDrive\Documents\University of South Wales\githubRepos\USW\Programming 2023-24\Other\weighttable\x64\Debug\weighttable.exe
