@@ -7,8 +7,8 @@ int main()
 {
     //random number of 0 and 1 to indicate heads(1) or tails(0)
 	srand(time(NULL));
-	int toss = rand() % 2 + 1 / 2;
-	//cout << toss << "\n";
+	int toss = rand() % 2;
+	cout << toss << "\n";
 
 	char letter = 'A';
 	cout << "Please enter Head or Tails in terms 'H' or 'T':\n";
