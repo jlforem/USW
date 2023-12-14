@@ -1,9 +1,14 @@
+/*
+*The structure MovieData initialises several variables that hold data as displayed by the variable names and contains two functions to set a movie and then display the entered information
+*/
+
 #include <iostream>
 #include <string>
 #include <iomanip>
 using namespace std;
 
-class MovieData {
+
+struct MovieData {
 private:
     string title;
     string director;
@@ -51,6 +56,7 @@ int main()
     MovieData movie2(title, director, yearReleased, runningTime, productionCost, firstYearRevenue);
     movie1.setMovie();
     movie1.getMovie();
+    //cin.ignore() to clear the movie1 data before working with movie2 to ensure no issues with misprints
     cin.ignore();
     cout << "\n";
     movie2.setMovie();
