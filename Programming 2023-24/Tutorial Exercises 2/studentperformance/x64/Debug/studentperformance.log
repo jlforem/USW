@@ -1,3 +1,0 @@
-﻿  studentperformance.cpp
-C:\University of South Wales\githubRepos\USW\Programming 2023-24\Tutorial Exercises 2\studentperformance\studentperformance.cpp(51,25): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-  studentperformance.vcxproj -> C:\University of South Wales\githubRepos\USW\Programming 2023-24\Tutorial Exercises 2\studentperformance\x64\Debug\studentperformance.exe
