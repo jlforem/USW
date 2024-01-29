@@ -1,0 +1,3 @@
+﻿  RunLogger.cpp
+C:\Users\jorda\OneDrive\Documents\University of South Wales\githubRepos\USW\Programming Year 1\Other\RunLogger\RunLogger.cpp(35,20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  RunLogger.vcxproj -> C:\Users\jorda\OneDrive\Documents\University of South Wales\githubRepos\USW\Programming Year 1\Other\RunLogger\x64\Debug\RunLogger.exe
