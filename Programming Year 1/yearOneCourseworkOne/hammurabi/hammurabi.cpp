@@ -52,12 +52,20 @@ public:
 		}
 		//does nothing in the case of '0'
 	}
+
+	void feedPopulation(int bushelsToFeedThisYear) {
+		if (bushelsToFeedThisYear > 0 && bushelsToFeedThisYear <= bushelStorageTotal) {
+			bushelStorageTotal -= bushelsToFeedThisYear;
+			int populationFed = bushelsToFeedThisYear / 20;
+		}
+	}
 };
+
 int main() 
 {
 	int currentYear = 1;
 
-	hammurabi newGame(1, 100, 100, 2500, 5, 0, 17);
+	hammurabi newGame(1, 100, 1000, 3000, 5, 0, 17);
 
 	if (newGame.gameOver() == false) {
 		cout << "Game Over";
