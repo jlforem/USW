@@ -21,24 +21,22 @@ public:
         return false;
     }
 
-    void buyAcres(int acresToBuy) {
-        if (acresToBuy > 0) {
-            bushelStorageTotal -= acresToBuy * landPrice;
-            acresOwnedByCity += acresToBuy;
+    void acresBuyOrSell(int buySellAcres) {
+        if (buySellAcres > 0) {
+            bushelStorageTotal -= buySellAcres * landPrice;
+            acresOwnedByCity += buySellAcres;
         }
+        else if (buySellAcres < 0) {
+            bushelStorageTotal += buySellAcres * landPrice;
+            acresOwnedByCity -= buySellAcres;
+        }
+        //does nothing in the case of '0'
     }
 
-    void sellAcres(int acresToSell) {
-        if (acresToSell > 0 && acresToSell <= acresOwnedByCity) {
-            bushelStorageTotal += acresToSell * landPrice;
-            acresOwnedByCity -= acresToSell;
-        }
-    }
-
-    void feedPeople(int bushelsToFeed) {
-        if (bushelsToFeed > 0 && bushelsToFeed <= bushelStorageTotal) {
-            population += bushelsToFeed / 5;
-            bushelStorageTotal -= bushelsToFeed;
+    void feedPopulation(int bushelsToFeedThisYear) {
+        if (bushelsToFeedThisYear > 0 && bushelsToFeedThisYear <= bushelStorageTotal) {
+            bushelStorageTotal -= bushelsToFeedThisYear;
+            int populationFed = bushelsToFeedThisYear / 20;
         }
     }
 
@@ -76,17 +74,12 @@ int main() {
         cout << "Enter the amount of people you want to feed: ";
         int peopleToFeed;
         cin >> peopleToFeed;
-        newGame.feedPeople(peopleToFeed * 5);
+        newGame.feedPopulation(peopleToFeed * 5);
 
         cout << "Enter the amount of acres you want to buy: ";
         int acresToBuy;
         cin >> acresToBuy;
-        newGame.buyAcres(acresToBuy);
-
-        cout << "Enter the amount of acres you want to sell: ";
-        int acresToSell;
-        cin >> acresToSell;
-        newGame.sellAcres(acresToSell);
+        newGame.acresBuyOrSell(acresToBuy);
 
         cout << "Enter the amount of acres you want to plant seed on: ";
         int acresToPlant;

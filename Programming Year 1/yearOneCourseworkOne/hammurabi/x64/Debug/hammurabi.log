@@ -1,2 +1,5 @@
 ﻿  hammurabi.cpp
+C:\University of South Wales\githubRepos\USW\Programming Year 1\yearOneCourseworkOne\hammurabi\hammurabi.cpp(87,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\University of South Wales\githubRepos\USW\Programming Year 1\yearOneCourseworkOne\hammurabi\hammurabi.cpp(126,28): warning C4553: '==': result of expression not used; did you intend '='?
+C:\University of South Wales\githubRepos\USW\Programming Year 1\yearOneCourseworkOne\hammurabi\hammurabi.cpp(58): warning C4715: 'hammurabi::feedPopulation': not all control paths return a value
   hammurabi.vcxproj -> C:\University of South Wales\githubRepos\USW\Programming Year 1\yearOneCourseworkOne\hammurabi\x64\Debug\hammurabi.exe
