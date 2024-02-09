@@ -1,4 +1,0 @@
-﻿  computerSystemConceptsTutorialFile.cpp
-C:\University of South Wales\githubRepos\USW\Programming Year 1\yearOneCourseworkOne\computerSystemConceptsTutorialFile\computerSystemConceptsTutorialFile.cpp(59,37): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
-C:\University of South Wales\githubRepos\USW\Programming Year 1\yearOneCourseworkOne\computerSystemConceptsTutorialFile\computerSystemConceptsTutorialFile.cpp(75,38): warning C4244: 'argument': conversion from 'double' to 'unsigned __int64', possible loss of data
-  computerSystemConceptsTutorialFile.vcxproj -> C:\University of South Wales\githubRepos\USW\Programming Year 1\yearOneCourseworkOne\computerSystemConceptsTutorialFile\x64\Debug\computerSystemConceptsTutorialFile.exe
