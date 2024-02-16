@@ -1,7 +1,8 @@
 #include <iostream>
 #include <fstream>
+#include<cmath>
 using namespace std;
-
+//currentYear doesnt save properly, returns 0 but the rest work. Have to work on the game not ending when a string is inputted. do uml diagram and report
 class hammurabi {
 private:
     int currentYear, population, acresOwnedByCity, bushelStorageTotal, bushelHarvestPerAcre, landPrice, bushelHarvestThisYear;
@@ -59,7 +60,6 @@ public:
             return populationFed;
         }
     }
-
     
     int plantSeed(int acresToPlant) {
             bushelHarvestThisYear = (acresToPlant * bushelHarvestPerAcre);
@@ -70,8 +70,10 @@ public:
 
     int ratsEatingBushels() {
         // 20% chance rats eat bushels this year
-        if (rand() % 100 <= 20) {
-            int bushelsLost = rand() % (300 - 5) + 5; //randomises in the range 5 to 300 each turn to determine the number of bushels lost
+        if ((rand() % 100) <= 20) {
+            int topRangeBushelStorage = round(bushelStorageTotal * 0.3);
+            int bottomRangeBushelStorage = round(bushelStorageTotal * 0.05);
+            int bushelsLost = rand() % (topRangeBushelStorage + bottomRangeBushelStorage) + bottomRangeBushelStorage; //randomises in the range 5 to 300 each turn to determine the number of bushels lost
             bushelStorageTotal -= bushelsLost;
             return bushelsLost;
         }
@@ -93,13 +95,48 @@ public:
         cout << "Land Price: " << landPrice << "\n";
         cout << "\nLast year the city harvested " << bushelHarvestThisYear << " bushels!\n";
     }//display of population increase and starvation rate, maybe add a plague feature to slash the population by half, random chance if == true statement
+
+    void save(const string& gameSave) {
+        ofstream out(gameSave);
+        if (out.is_open()) {
+            out << currentYear << "\n";
+            out << population << "\n";
+            out << acresOwnedByCity << "\n";
+            out << bushelStorageTotal << "\n";
+            out << bushelHarvestPerAcre << "\n";
+            out << landPrice << "\n";
+            out << bushelHarvestThisYear << "\n";
+        }
+    }
+
+    bool load(const string& gameSave) {//referencing the gameSave file allows the function to modify the original string without needing to make a copy
+        ifstream in(gameSave); //opens the file in read mode to retrieve the data from the file and overwrite the new game variables before starting the game
+        if (in.is_open()) {//checks if the file was opened successfully
+            in >> currentYear;
+            currentYear += 1; //currentYear was returning one game year behind the current variables. this resolve will have to do.
+            in >> population;
+            in >> acresOwnedByCity;
+            in >> bushelStorageTotal;
+            in >> bushelHarvestPerAcre;
+            in >> landPrice;
+            in >> bushelHarvestThisYear;
+            return true;
+        }
+        return false;
+    }
 };
 
 int main() {
-    srand(time(NULL)); //seed for landPrice
+    srand(time(NULL)); //seed for landPrice and ratsEatingBushels
     hammurabi newGame(0, 100, 1000, 3000, 3, 17, 0);
-    int currentYear = newGame.getCurrentYear();
     cout << "Each person needs 20 bushels to survive the year, additional bushels will increase the population next year.\n";
+    cout << "\nDo you want to load the last played game? Y to load, N to start a new game!\n";
+    char newOrLoadGame;
+    cin >> newOrLoadGame;
+    if (newOrLoadGame == 'Y') {
+        newGame.load("save.txt");
+        cout << "\n\nGame state loaded from save.txt" << "\n";
+    }
 
     while (!newGame.gameOver()) {
 
@@ -141,9 +178,11 @@ int main() {
             cin >> acresToPlant;
             newGame.plantSeed(acresToPlant);
         }
+        newGame.save("save.txt");// Save the game state
         newGame.simulateYear(populationFed);
         newGame.gameOver();
     }
+
     if (newGame.getPopulation() <= 0) {//should the game end early, a failure cout is written with # borders
         for (int i = 0; i < 11; i++) {
             cout << "#############################################################\n";
@@ -153,7 +192,7 @@ int main() {
             cout << "#############################################################\n";
         }
     }
-    if (currentYear >= 10) {//should the game end by time, a success cout is written
+    if (newGame.getCurrentYear() >= 10) {//should the game end by time, a success cout is written
         for (int i = 0; i < 11; i++) {
             cout << "#############################################################\n";
         }
