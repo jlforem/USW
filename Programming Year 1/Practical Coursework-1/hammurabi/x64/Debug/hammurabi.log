@@ -1,0 +1,7 @@
+﻿  hammurabi.cpp
+C:\University of South Wales\githubRepos\USW\Programming Year 1\Practical Coursework-1\hammurabi\hammurabi.cpp(73,39): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\University of South Wales\githubRepos\USW\Programming Year 1\Practical Coursework-1\hammurabi\hammurabi.cpp(74,42): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\University of South Wales\githubRepos\USW\Programming Year 1\Practical Coursework-1\hammurabi\hammurabi.cpp(129,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\University of South Wales\githubRepos\USW\Programming Year 1\Practical Coursework-1\hammurabi\hammurabi.cpp(79): warning C4715: 'hammurabi::ratsEatingBushels': not all control paths return a value
+C:\University of South Wales\githubRepos\USW\Programming Year 1\Practical Coursework-1\hammurabi\hammurabi.cpp(61): warning C4715: 'hammurabi::feedPopulation': not all control paths return a value
+  hammurabi.vcxproj -> C:\University of South Wales\githubRepos\USW\Programming Year 1\Practical Coursework-1\hammurabi\x64\Debug\hammurabi.exe

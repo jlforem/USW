@@ -1,0 +1,4 @@
+﻿  hammurabiExample.cpp
+C:\University of South Wales\githubRepos\USW\Programming 2023-24\Other\hammurabiExample\hammurabiExample.cpp(54,23): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\University of South Wales\githubRepos\USW\Programming 2023-24\Other\hammurabiExample\hammurabiExample.cpp(56,23): warning C4244: '-=': conversion from 'double' to 'int', possible loss of data
+  hammurabiExample.vcxproj -> C:\University of South Wales\githubRepos\USW\Programming 2023-24\Other\hammurabiExample\x64\Debug\hammurabiExample.exe
