@@ -1,0 +1,3 @@
+﻿  pokemonBattler.cpp
+C:\Users\jorda\OneDrive\Documents\University of South Wales\githubRepos\USW\Programming Year 1\Other\pokemonBattler\pokemonBattler.cpp(97,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  pokemonBattler.vcxproj -> C:\Users\jorda\OneDrive\Documents\University of South Wales\githubRepos\USW\Programming Year 1\Other\pokemonBattler\x64\Debug\pokemonBattler.exe
