@@ -1,0 +1,5 @@
+﻿  samplePointer.cpp
+C:\Users\jorda\OneDrive\Documents\University of South Wales\githubRepos\USW\Programming Year 1\yearOneCourseworkTwo\samplePointer\samplePointer.cpp(21,2): error C2664: 'void SomeFunc(Sample *)': cannot convert argument 1 from 'Sample' to 'Sample *'
+C:\Users\jorda\OneDrive\Documents\University of South Wales\githubRepos\USW\Programming Year 1\yearOneCourseworkTwo\samplePointer\samplePointer.cpp(21,11): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Users\jorda\OneDrive\Documents\University of South Wales\githubRepos\USW\Programming Year 1\yearOneCourseworkTwo\samplePointer\samplePointer.cpp(13,6): message : see declaration of 'SomeFunc'
+C:\Users\jorda\OneDrive\Documents\University of South Wales\githubRepos\USW\Programming Year 1\yearOneCourseworkTwo\samplePointer\samplePointer.cpp(21,2): message : while trying to match the argument list '(Sample)'

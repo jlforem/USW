@@ -1,0 +1,4 @@
+﻿  ToPercent.cpp
+C:\Users\jorda\Downloads\Code\ToPercent.cpp(7,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
+C:\Users\jorda\Downloads\Code\ToPercent.cpp(30,25): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  ToPercent.vcxproj -> C:\Users\jorda\OneDrive\Documents\University of South Wales\githubRepos\USW\Programming Year 1\yearOneCourseworkTwo\ToPercent\x64\Debug\ToPercent.exe

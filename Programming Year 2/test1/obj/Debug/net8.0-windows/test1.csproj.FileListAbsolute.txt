@@ -1,0 +1,16 @@
+C:\Users\jorda\source\repos\test1\bin\Debug\net8.0-windows\test1.exe
+C:\Users\jorda\source\repos\test1\bin\Debug\net8.0-windows\test1.deps.json
+C:\Users\jorda\source\repos\test1\bin\Debug\net8.0-windows\test1.runtimeconfig.json
+C:\Users\jorda\source\repos\test1\bin\Debug\net8.0-windows\test1.dll
+C:\Users\jorda\source\repos\test1\bin\Debug\net8.0-windows\test1.pdb
+C:\Users\jorda\source\repos\test1\obj\Debug\net8.0-windows\test1.Form1.resources
+C:\Users\jorda\source\repos\test1\obj\Debug\net8.0-windows\test1.csproj.GenerateResource.cache
+C:\Users\jorda\source\repos\test1\obj\Debug\net8.0-windows\test1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jorda\source\repos\test1\obj\Debug\net8.0-windows\test1.AssemblyInfoInputs.cache
+C:\Users\jorda\source\repos\test1\obj\Debug\net8.0-windows\test1.AssemblyInfo.cs
+C:\Users\jorda\source\repos\test1\obj\Debug\net8.0-windows\test1.csproj.CoreCompileInputs.cache
+C:\Users\jorda\source\repos\test1\obj\Debug\net8.0-windows\test1.dll
+C:\Users\jorda\source\repos\test1\obj\Debug\net8.0-windows\refint\test1.dll
+C:\Users\jorda\source\repos\test1\obj\Debug\net8.0-windows\test1.pdb
+C:\Users\jorda\source\repos\test1\obj\Debug\net8.0-windows\test1.genruntimeconfig.cache
+C:\Users\jorda\source\repos\test1\obj\Debug\net8.0-windows\ref\test1.dll

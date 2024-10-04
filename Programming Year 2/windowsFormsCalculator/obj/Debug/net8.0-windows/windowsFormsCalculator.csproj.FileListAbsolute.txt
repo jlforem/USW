@@ -1,0 +1,16 @@
+C:\Users\jorda\source\repos\windowsFormsCalculator\bin\Debug\net8.0-windows\windowsFormsCalculator.exe
+C:\Users\jorda\source\repos\windowsFormsCalculator\bin\Debug\net8.0-windows\windowsFormsCalculator.deps.json
+C:\Users\jorda\source\repos\windowsFormsCalculator\bin\Debug\net8.0-windows\windowsFormsCalculator.runtimeconfig.json
+C:\Users\jorda\source\repos\windowsFormsCalculator\bin\Debug\net8.0-windows\windowsFormsCalculator.dll
+C:\Users\jorda\source\repos\windowsFormsCalculator\bin\Debug\net8.0-windows\windowsFormsCalculator.pdb
+C:\Users\jorda\source\repos\windowsFormsCalculator\obj\Debug\net8.0-windows\windowsFormsCalculator.Form1.resources
+C:\Users\jorda\source\repos\windowsFormsCalculator\obj\Debug\net8.0-windows\windowsFormsCalculator.csproj.GenerateResource.cache
+C:\Users\jorda\source\repos\windowsFormsCalculator\obj\Debug\net8.0-windows\windowsFormsCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jorda\source\repos\windowsFormsCalculator\obj\Debug\net8.0-windows\windowsFormsCalculator.AssemblyInfoInputs.cache
+C:\Users\jorda\source\repos\windowsFormsCalculator\obj\Debug\net8.0-windows\windowsFormsCalculator.AssemblyInfo.cs
+C:\Users\jorda\source\repos\windowsFormsCalculator\obj\Debug\net8.0-windows\windowsFormsCalculator.csproj.CoreCompileInputs.cache
+C:\Users\jorda\source\repos\windowsFormsCalculator\obj\Debug\net8.0-windows\windowsFormsCalculator.dll
+C:\Users\jorda\source\repos\windowsFormsCalculator\obj\Debug\net8.0-windows\refint\windowsFormsCalculator.dll
+C:\Users\jorda\source\repos\windowsFormsCalculator\obj\Debug\net8.0-windows\windowsFormsCalculator.pdb
+C:\Users\jorda\source\repos\windowsFormsCalculator\obj\Debug\net8.0-windows\windowsFormsCalculator.genruntimeconfig.cache
+C:\Users\jorda\source\repos\windowsFormsCalculator\obj\Debug\net8.0-windows\ref\windowsFormsCalculator.dll

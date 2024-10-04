@@ -1,0 +1,14 @@
+C:\Users\jorda\source\repos\test2\bin\Debug\net8.0\test2.exe
+C:\Users\jorda\source\repos\test2\bin\Debug\net8.0\test2.deps.json
+C:\Users\jorda\source\repos\test2\bin\Debug\net8.0\test2.runtimeconfig.json
+C:\Users\jorda\source\repos\test2\bin\Debug\net8.0\test2.dll
+C:\Users\jorda\source\repos\test2\bin\Debug\net8.0\test2.pdb
+C:\Users\jorda\source\repos\test2\obj\Debug\net8.0\test2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jorda\source\repos\test2\obj\Debug\net8.0\test2.AssemblyInfoInputs.cache
+C:\Users\jorda\source\repos\test2\obj\Debug\net8.0\test2.AssemblyInfo.cs
+C:\Users\jorda\source\repos\test2\obj\Debug\net8.0\test2.csproj.CoreCompileInputs.cache
+C:\Users\jorda\source\repos\test2\obj\Debug\net8.0\test2.dll
+C:\Users\jorda\source\repos\test2\obj\Debug\net8.0\refint\test2.dll
+C:\Users\jorda\source\repos\test2\obj\Debug\net8.0\test2.pdb
+C:\Users\jorda\source\repos\test2\obj\Debug\net8.0\test2.genruntimeconfig.cache
+C:\Users\jorda\source\repos\test2\obj\Debug\net8.0\ref\test2.dll

@@ -1,0 +1,56 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jorda\\OneDrive\\Documents\\University of South Wales\\githubRepos\\USW\\Programming Year 1\\yearOneCourseworkTwo\\samplePointer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E011777C-B09E-464D-BA27-0AE82BB42A07}|samplePointer.vcxproj|C:\\Users\\jorda\\OneDrive\\Documents\\University of South Wales\\githubRepos\\USW\\Programming Year 1\\yearOneCourseworkTwo\\samplePointer\\samplePointer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E011777C-B09E-464D-BA27-0AE82BB42A07}|samplePointer.vcxproj|solutionrelative:samplePointer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\crt\\src\\vcruntime\\delete_scalar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "delete_scalar.cpp",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\crt\\src\\vcruntime\\delete_scalar.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\crt\\src\\vcruntime\\delete_scalar.cpp",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\crt\\src\\vcruntime\\delete_scalar.cpp",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\crt\\src\\vcruntime\\delete_scalar.cpp",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-24T09:57:34.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "samplePointer.cpp",
+              "DocumentMoniker": "C:\\Users\\jorda\\OneDrive\\Documents\\University of South Wales\\githubRepos\\USW\\Programming Year 1\\yearOneCourseworkTwo\\samplePointer\\samplePointer.cpp",
+              "RelativeDocumentMoniker": "samplePointer.cpp",
+              "ToolTip": "C:\\Users\\jorda\\OneDrive\\Documents\\University of South Wales\\githubRepos\\USW\\Programming Year 1\\yearOneCourseworkTwo\\samplePointer\\samplePointer.cpp",
+              "RelativeToolTip": "samplePointer.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-24T09:53:57.126Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
