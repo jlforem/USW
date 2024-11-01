@@ -37,9 +37,16 @@
             this.cokeButton = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.totalPriceLabelUpdateable = new System.Windows.Forms.Label();
+            this.itemBasketRichTextBox = new System.Windows.Forms.RichTextBox();
+            this.checkoutButton = new System.Windows.Forms.Button();
+            this.clearButton = new System.Windows.Forms.Button();
+            this.itemBasketTitle = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -145,11 +152,72 @@
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
             // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.totalPriceLabelUpdateable);
+            this.panel1.Controls.Add(this.itemBasketRichTextBox);
+            this.panel1.Controls.Add(this.checkoutButton);
+            this.panel1.Controls.Add(this.clearButton);
+            this.panel1.Controls.Add(this.itemBasketTitle);
+            this.panel1.Location = new System.Drawing.Point(245, 13);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(176, 297);
+            this.panel1.TabIndex = 3;
+            // 
+            // totalPriceLabelUpdateable
+            // 
+            this.totalPriceLabelUpdateable.AutoSize = true;
+            this.totalPriceLabelUpdateable.Location = new System.Drawing.Point(36, 225);
+            this.totalPriceLabelUpdateable.Name = "totalPriceLabelUpdateable";
+            this.totalPriceLabelUpdateable.Size = new System.Drawing.Size(91, 13);
+            this.totalPriceLabelUpdateable.TabIndex = 5;
+            this.totalPriceLabelUpdateable.Text = "Total Price: £0.00";
+            this.totalPriceLabelUpdateable.Click += new System.EventHandler(this.totalPriceLabelUpdateable_Click);
+            // 
+            // itemBasketRichTextBox
+            // 
+            this.itemBasketRichTextBox.Location = new System.Drawing.Point(4, 20);
+            this.itemBasketRichTextBox.Name = "itemBasketRichTextBox";
+            this.itemBasketRichTextBox.Size = new System.Drawing.Size(169, 202);
+            this.itemBasketRichTextBox.TabIndex = 3;
+            this.itemBasketRichTextBox.Text = "";
+            this.itemBasketRichTextBox.TextChanged += new System.EventHandler(this.itemBasketTextBox_TextChanged);
+            // 
+            // checkoutButton
+            // 
+            this.checkoutButton.Location = new System.Drawing.Point(34, 241);
+            this.checkoutButton.Name = "checkoutButton";
+            this.checkoutButton.Size = new System.Drawing.Size(103, 23);
+            this.checkoutButton.TabIndex = 2;
+            this.checkoutButton.Text = "CHECKOUT";
+            this.checkoutButton.UseVisualStyleBackColor = true;
+            // 
+            // clearButton
+            // 
+            this.clearButton.Location = new System.Drawing.Point(34, 271);
+            this.clearButton.Name = "clearButton";
+            this.clearButton.Size = new System.Drawing.Size(103, 23);
+            this.clearButton.TabIndex = 1;
+            this.clearButton.Text = "CLEAR";
+            this.clearButton.UseVisualStyleBackColor = true;
+            this.clearButton.Click += new System.EventHandler(this.clearButton_Click);
+            // 
+            // itemBasketTitle
+            // 
+            this.itemBasketTitle.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.itemBasketTitle.AutoSize = true;
+            this.itemBasketTitle.Location = new System.Drawing.Point(49, 3);
+            this.itemBasketTitle.Name = "itemBasketTitle";
+            this.itemBasketTitle.Size = new System.Drawing.Size(78, 13);
+            this.itemBasketTitle.TabIndex = 0;
+            this.itemBasketTitle.Text = "ITEM BASKET";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(602, 450);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.tableLayoutPanel1);
@@ -159,6 +227,8 @@
             this.tableLayoutPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -175,6 +245,12 @@
         private System.Windows.Forms.Button redBullButton;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label itemBasketTitle;
+        private System.Windows.Forms.Button clearButton;
+        private System.Windows.Forms.RichTextBox itemBasketRichTextBox;
+        private System.Windows.Forms.Button checkoutButton;
+        private System.Windows.Forms.Label totalPriceLabelUpdateable;
     }
 }
 

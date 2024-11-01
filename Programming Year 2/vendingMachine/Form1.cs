@@ -12,6 +12,8 @@ namespace vendingMachine
 {
     public partial class Form1 : Form
     {
+        private basketHandler basket;
+
         public Form1()
         {
             InitializeComponent();
@@ -21,38 +23,83 @@ namespace vendingMachine
             VendingStock fanta = new VendingStock("Fanta", 1.90m, 10);
             VendingStock lucozade = new VendingStock("Lucozade", 2.20m, 7);
             VendingStock redBull = new VendingStock("Red Bull", 2.60m, 9);
+
+            basket = new basketHandler();
+        }
+
+        private void UpdateTotalPriceLabel()
+        {
+            totalPriceLabelUpdateable.Text = $"Total Price: £{basket.GetTotalPrice():0.00}";
+        }
+
+        private void UpdateItemBasketTextBox()
+        {
+            itemBasketRichTextBox.Clear();
+            foreach (var item in basket.GetBasketItems())
+            {
+                itemBasketRichTextBox.AppendText($"{item.Key} - £{item.Value.price:0.00} - {item.Value.quantity}\n");
+            }
         }
 
         private void cokeButton_Click(object sender, EventArgs e)
         {
-
+            basket.addToBasket("Coke", 2.50m);
+            UpdateTotalPriceLabel();
+            UpdateItemBasketTextBox();
         }
 
         private void spriteButton_Click(object sender, EventArgs e)
         {
-
+            basket.addToBasket("Sprite", 1.95m);
+            UpdateTotalPriceLabel();
+            UpdateItemBasketTextBox();
         }
 
         private void drPepperButton_Click(object sender, EventArgs e)
         {
-
+            basket.addToBasket("Dr Pepper", 2.10m);
+            UpdateTotalPriceLabel();
+            UpdateItemBasketTextBox();
         }
 
         private void fantaButton_Click(object sender, EventArgs e)
         {
-
+            basket.addToBasket("Fanta", 1.90m);
+            UpdateTotalPriceLabel();
+            UpdateItemBasketTextBox();
         }
 
         private void lucozadeButton_Click(object sender, EventArgs e)
         {
-
+            basket.addToBasket("Lucozade", 2.20m);
+            UpdateTotalPriceLabel();
+            UpdateItemBasketTextBox();
         }
 
         private void redBullButton_Click(object sender, EventArgs e)
         {
+            basket.addToBasket("Red Bull", 2.60m);
+            UpdateTotalPriceLabel();
+            UpdateItemBasketTextBox();
+        }
+
+        private void clearButton_Click(object sender, EventArgs e)
+        {
+            basket.clearBasket();
+            UpdateTotalPriceLabel();
+            UpdateItemBasketTextBox();
+        }
+
+        private void itemBasketTextBox_TextChanged(object sender, EventArgs e)
+        {
 
         }
 
+        private void totalPriceLabelUpdateable_Click(object sender, EventArgs e)
+        {
+
+        }
+        
     }
 
     public class VendingStock
@@ -103,26 +150,51 @@ namespace vendingMachine
     public class basketHandler
     {
         decimal totalPrice = 0.0m;
-        List<string> basketItems = new List<string>();
+        Dictionary<string, (decimal price, int quantity)> basketItems = new Dictionary<string, (decimal price, int quantity)>();
 
         public void addToBasket(string item, decimal price)
         {
-            string itemWithPrice = $"{item} - £{price}";
-            basketItems.Add(itemWithPrice);
+            if (basketItems.ContainsKey(item))
+            {
+                basketItems[item] = (price, basketItems[item].quantity + 1);
+            }
+            else
+            {
+                basketItems[item] = (price, 1);
+            }
             totalPrice += price;
         }
 
         public void removeFromBasket(string item, decimal price)
         {
-            string itemWithPrice = $"{item} - £{price}";
-            basketItems.Remove(itemWithPrice);
-            totalPrice -= price;
+            if (basketItems.ContainsKey(item))
+            {
+                if (basketItems[item].quantity > 1)
+                {
+                    basketItems[item] = (price, basketItems[item].quantity - 1);
+                }
+                else
+                {
+                    basketItems.Remove(item);
+                }
+                totalPrice -= price;
+            }
         }
 
         public void clearBasket()
         {
             basketItems.Clear();
             totalPrice = 0.0m;
+        }
+
+        public decimal GetTotalPrice()
+        {
+            return totalPrice;
+        }
+
+        public Dictionary<string, (decimal price, int quantity)> GetBasketItems()
+        {
+            return basketItems;
         }
     }
 
