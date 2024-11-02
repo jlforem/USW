@@ -65,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -78,6 +79,39 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vendingImages\closeup-metal-coin-slot-panel-600nw-1663235773.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vendingImages\a-new-2017-10-note-on-a-white-background-KCKDND.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vendingImages\depositphotos_124714032-stock-photo-polymer-uk-five-pound-note.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vendingImages\fifyp.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vendingImages\fivep.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vendingImages\onep.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vendingImages\onePound.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vendingImages\tenp.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vendingImages\twentyp.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vendingImages\twop.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vendingImages\twoPounds.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

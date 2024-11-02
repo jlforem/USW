@@ -18,3 +18,13 @@ C:\Users\jorda\OneDrive\Documents\University of South Wales\githubRepos\USW\Prog
 C:\Users\jorda\OneDrive\Documents\University of South Wales\githubRepos\USW\Programming Year 2\vendingMachine\obj\Debug\vendingMachine.csproj.CoreCompileInputs.cache
 C:\Users\jorda\OneDrive\Documents\University of South Wales\githubRepos\USW\Programming Year 2\vendingMachine\obj\Debug\vendingMachine.exe
 C:\Users\jorda\OneDrive\Documents\University of South Wales\githubRepos\USW\Programming Year 2\vendingMachine\obj\Debug\vendingMachine.pdb
+C:\University of South Wales\githubRepos\USW\Programming Year 2\vendingMachine\bin\Debug\vendingMachine.exe.config
+C:\University of South Wales\githubRepos\USW\Programming Year 2\vendingMachine\bin\Debug\vendingMachine.exe
+C:\University of South Wales\githubRepos\USW\Programming Year 2\vendingMachine\bin\Debug\vendingMachine.pdb
+C:\University of South Wales\githubRepos\USW\Programming Year 2\vendingMachine\obj\Debug\vendingMachine.csproj.AssemblyReference.cache
+C:\University of South Wales\githubRepos\USW\Programming Year 2\vendingMachine\obj\Debug\vendingMachine.Properties.Resources.resources
+C:\University of South Wales\githubRepos\USW\Programming Year 2\vendingMachine\obj\Debug\vendingMachine.csproj.GenerateResource.cache
+C:\University of South Wales\githubRepos\USW\Programming Year 2\vendingMachine\obj\Debug\vendingMachine.csproj.CoreCompileInputs.cache
+C:\University of South Wales\githubRepos\USW\Programming Year 2\vendingMachine\obj\Debug\vendingMachine.exe
+C:\University of South Wales\githubRepos\USW\Programming Year 2\vendingMachine\obj\Debug\vendingMachine.pdb
+C:\University of South Wales\githubRepos\USW\Programming Year 2\vendingMachine\obj\Debug\vendingMachine.SN17033128.resources

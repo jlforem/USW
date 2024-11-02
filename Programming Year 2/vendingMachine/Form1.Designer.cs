@@ -1,6 +1,6 @@
 ﻿namespace vendingMachine
 {
-    partial class Form1
+    partial class SN17033128
     {
         /// <summary>
         /// Required designer variable.
@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SN17033128));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.redBullButton = new System.Windows.Forms.Button();
             this.lucozadeButton = new System.Windows.Forms.Button();
@@ -35,18 +36,37 @@
             this.drPepperButton = new System.Windows.Forms.Button();
             this.spriteButton = new System.Windows.Forms.Button();
             this.cokeButton = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.totalPriceLabelUpdateable = new System.Windows.Forms.Label();
             this.itemBasketRichTextBox = new System.Windows.Forms.RichTextBox();
             this.checkoutButton = new System.Windows.Forms.Button();
             this.clearButton = new System.Windows.Forms.Button();
             this.itemBasketTitle = new System.Windows.Forms.Label();
+            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.money2 = new System.Windows.Forms.PictureBox();
+            this.money1 = new System.Windows.Forms.PictureBox();
+            this.money500 = new System.Windows.Forms.PictureBox();
+            this.money1000 = new System.Windows.Forms.PictureBox();
+            this.money100 = new System.Windows.Forms.PictureBox();
+            this.money50 = new System.Windows.Forms.PictureBox();
+            this.money20 = new System.Windows.Forms.PictureBox();
+            this.money10 = new System.Windows.Forms.PictureBox();
+            this.money5 = new System.Windows.Forms.PictureBox();
+            this.totalRemainingLabel = new System.Windows.Forms.Label();
+            this.coinSlotImage = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
+            this.tableLayoutPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.money2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.money1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.money500)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.money1000)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.money100)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.money50)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.money20)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.money10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.money5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.coinSlotImage)).BeginInit();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -67,13 +87,13 @@
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(225, 150);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(302, 150);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // redBullButton
             // 
             this.redBullButton.AutoSize = true;
-            this.redBullButton.Location = new System.Drawing.Point(153, 78);
+            this.redBullButton.Location = new System.Drawing.Point(203, 78);
             this.redBullButton.Name = "redBullButton";
             this.redBullButton.Size = new System.Drawing.Size(68, 69);
             this.redBullButton.TabIndex = 5;
@@ -84,7 +104,7 @@
             // lucozadeButton
             // 
             this.lucozadeButton.AutoSize = true;
-            this.lucozadeButton.Location = new System.Drawing.Point(78, 78);
+            this.lucozadeButton.Location = new System.Drawing.Point(103, 78);
             this.lucozadeButton.Name = "lucozadeButton";
             this.lucozadeButton.Size = new System.Drawing.Size(68, 69);
             this.lucozadeButton.TabIndex = 4;
@@ -106,7 +126,7 @@
             // drPepperButton
             // 
             this.drPepperButton.AutoSize = true;
-            this.drPepperButton.Location = new System.Drawing.Point(153, 3);
+            this.drPepperButton.Location = new System.Drawing.Point(203, 3);
             this.drPepperButton.Name = "drPepperButton";
             this.drPepperButton.Size = new System.Drawing.Size(68, 69);
             this.drPepperButton.TabIndex = 2;
@@ -117,7 +137,7 @@
             // spriteButton
             // 
             this.spriteButton.AutoSize = true;
-            this.spriteButton.Location = new System.Drawing.Point(78, 3);
+            this.spriteButton.Location = new System.Drawing.Point(103, 3);
             this.spriteButton.Name = "spriteButton";
             this.spriteButton.Size = new System.Drawing.Size(68, 69);
             this.spriteButton.TabIndex = 1;
@@ -136,22 +156,6 @@
             this.cokeButton.UseVisualStyleBackColor = true;
             this.cokeButton.Click += new System.EventHandler(this.cokeButton_Click);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(91, 166);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(68, 69);
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Location = new System.Drawing.Point(91, 241);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(68, 69);
-            this.pictureBox2.TabIndex = 2;
-            this.pictureBox2.TabStop = false;
-            // 
             // panel1
             // 
             this.panel1.Controls.Add(this.totalPriceLabelUpdateable);
@@ -159,9 +163,9 @@
             this.panel1.Controls.Add(this.checkoutButton);
             this.panel1.Controls.Add(this.clearButton);
             this.panel1.Controls.Add(this.itemBasketTitle);
-            this.panel1.Location = new System.Drawing.Point(245, 13);
+            this.panel1.Location = new System.Drawing.Point(321, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(176, 297);
+            this.panel1.Size = new System.Drawing.Size(176, 337);
             this.panel1.TabIndex = 3;
             // 
             // totalPriceLabelUpdateable
@@ -178,9 +182,10 @@
             // 
             this.itemBasketRichTextBox.Location = new System.Drawing.Point(4, 20);
             this.itemBasketRichTextBox.Name = "itemBasketRichTextBox";
+            this.itemBasketRichTextBox.ReadOnly = true;
             this.itemBasketRichTextBox.Size = new System.Drawing.Size(169, 202);
             this.itemBasketRichTextBox.TabIndex = 3;
-            this.itemBasketRichTextBox.Text = "";
+            this.itemBasketRichTextBox.Text = "Welcome to the Vending Machine!";
             this.itemBasketRichTextBox.TextChanged += new System.EventHandler(this.itemBasketTextBox_TextChanged);
             // 
             // checkoutButton
@@ -191,6 +196,7 @@
             this.checkoutButton.TabIndex = 2;
             this.checkoutButton.Text = "CHECKOUT";
             this.checkoutButton.UseVisualStyleBackColor = true;
+            this.checkoutButton.Click += new System.EventHandler(this.checkoutButton_Click);
             // 
             // clearButton
             // 
@@ -212,23 +218,176 @@
             this.itemBasketTitle.TabIndex = 0;
             this.itemBasketTitle.Text = "ITEM BASKET";
             // 
-            // Form1
+            // tableLayoutPanel2
+            // 
+            this.tableLayoutPanel2.ColumnCount = 3;
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel2.Controls.Add(this.money2, 1, 2);
+            this.tableLayoutPanel2.Controls.Add(this.money1, 2, 2);
+            this.tableLayoutPanel2.Controls.Add(this.money500, 1, 0);
+            this.tableLayoutPanel2.Controls.Add(this.money1000, 0, 0);
+            this.tableLayoutPanel2.Controls.Add(this.money100, 2, 0);
+            this.tableLayoutPanel2.Controls.Add(this.money50, 0, 1);
+            this.tableLayoutPanel2.Controls.Add(this.money20, 1, 1);
+            this.tableLayoutPanel2.Controls.Add(this.money10, 2, 1);
+            this.tableLayoutPanel2.Controls.Add(this.money5, 0, 2);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(12, 170);
+            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
+            this.tableLayoutPanel2.RowCount = 3;
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(221, 179);
+            this.tableLayoutPanel2.TabIndex = 4;
+            // 
+            // money2
+            // 
+            this.money2.Image = global::vendingMachine.Properties.Resources.twop;
+            this.money2.Location = new System.Drawing.Point(76, 121);
+            this.money2.Name = "money2";
+            this.money2.Size = new System.Drawing.Size(67, 50);
+            this.money2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.money2.TabIndex = 9;
+            this.money2.TabStop = false;
+            // 
+            // money1
+            // 
+            this.money1.Image = global::vendingMachine.Properties.Resources.onep;
+            this.money1.Location = new System.Drawing.Point(149, 121);
+            this.money1.Name = "money1";
+            this.money1.Size = new System.Drawing.Size(67, 50);
+            this.money1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.money1.TabIndex = 8;
+            this.money1.TabStop = false;
+            // 
+            // money500
+            // 
+            this.money500.Image = global::vendingMachine.Properties.Resources.depositphotos_124714032_stock_photo_polymer_uk_five_pound_note;
+            this.money500.Location = new System.Drawing.Point(76, 3);
+            this.money500.Name = "money500";
+            this.money500.Size = new System.Drawing.Size(67, 50);
+            this.money500.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.money500.TabIndex = 1;
+            this.money500.TabStop = false;
+            // 
+            // money1000
+            // 
+            this.money1000.Image = global::vendingMachine.Properties.Resources.a_new_2017_10_note_on_a_white_background_KCKDND;
+            this.money1000.Location = new System.Drawing.Point(3, 3);
+            this.money1000.Name = "money1000";
+            this.money1000.Size = new System.Drawing.Size(67, 50);
+            this.money1000.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.money1000.TabIndex = 0;
+            this.money1000.TabStop = false;
+            this.money1000.DragDrop += new System.Windows.Forms.DragEventHandler(this.coinSlotImage_DragDrop);
+            this.money1000.MouseDown += new System.Windows.Forms.MouseEventHandler(this.money1000_MouseDown);
+            // 
+            // money100
+            // 
+            this.money100.Image = global::vendingMachine.Properties.Resources.onePound;
+            this.money100.Location = new System.Drawing.Point(149, 3);
+            this.money100.Name = "money100";
+            this.money100.Size = new System.Drawing.Size(67, 50);
+            this.money100.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.money100.TabIndex = 3;
+            this.money100.TabStop = false;
+            this.money100.DragDrop += new System.Windows.Forms.DragEventHandler(this.coinSlotImage_DragDrop);
+            this.money100.DragLeave += new System.EventHandler(this.money100_dragdrop);
+            // 
+            // money50
+            // 
+            this.money50.Image = global::vendingMachine.Properties.Resources.fifyp;
+            this.money50.Location = new System.Drawing.Point(3, 62);
+            this.money50.Name = "money50";
+            this.money50.Size = new System.Drawing.Size(67, 50);
+            this.money50.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.money50.TabIndex = 4;
+            this.money50.TabStop = false;
+            // 
+            // money20
+            // 
+            this.money20.Image = global::vendingMachine.Properties.Resources.twentyp;
+            this.money20.Location = new System.Drawing.Point(76, 62);
+            this.money20.Name = "money20";
+            this.money20.Size = new System.Drawing.Size(67, 50);
+            this.money20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.money20.TabIndex = 5;
+            this.money20.TabStop = false;
+            // 
+            // money10
+            // 
+            this.money10.Image = global::vendingMachine.Properties.Resources.tenp;
+            this.money10.Location = new System.Drawing.Point(149, 62);
+            this.money10.Name = "money10";
+            this.money10.Size = new System.Drawing.Size(67, 50);
+            this.money10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.money10.TabIndex = 6;
+            this.money10.TabStop = false;
+            // 
+            // money5
+            // 
+            this.money5.Image = global::vendingMachine.Properties.Resources.fivep;
+            this.money5.Location = new System.Drawing.Point(3, 121);
+            this.money5.Name = "money5";
+            this.money5.Size = new System.Drawing.Size(67, 50);
+            this.money5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.money5.TabIndex = 7;
+            this.money5.TabStop = false;
+            // 
+            // totalRemainingLabel
+            // 
+            this.totalRemainingLabel.AutoSize = true;
+            this.totalRemainingLabel.Location = new System.Drawing.Point(220, 352);
+            this.totalRemainingLabel.Name = "totalRemainingLabel";
+            this.totalRemainingLabel.Size = new System.Drawing.Size(117, 13);
+            this.totalRemainingLabel.TabIndex = 7;
+            this.totalRemainingLabel.Text = "Total Remaining: £?.??";
+            this.totalRemainingLabel.Click += new System.EventHandler(this.totalRemainingLabel_Click);
+            // 
+            // coinSlotImage
+            // 
+            this.coinSlotImage.Image = ((System.Drawing.Image)(resources.GetObject("coinSlotImage.Image")));
+            this.coinSlotImage.Location = new System.Drawing.Point(239, 225);
+            this.coinSlotImage.Name = "coinSlotImage";
+            this.coinSlotImage.Size = new System.Drawing.Size(80, 124);
+            this.coinSlotImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.coinSlotImage.TabIndex = 5;
+            this.coinSlotImage.TabStop = false;
+            this.coinSlotImage.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.coinSlotImage.DragDrop += new System.Windows.Forms.DragEventHandler(this.coinSlotImage_DragDrop);
+            this.coinSlotImage.DragEnter += new System.Windows.Forms.DragEventHandler(this.coinSlotImage_DragEnter);
+            // 
+            // SN17033128
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(602, 450);
+            this.Controls.Add(this.totalRemainingLabel);
+            this.Controls.Add(this.coinSlotImage);
+            this.Controls.Add(this.tableLayoutPanel2);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.tableLayoutPanel1);
-            this.Name = "Form1";
+            this.Name = "SN17033128";
             this.Text = "Form1";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.tableLayoutPanel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.money2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.money1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.money500)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.money1000)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.money100)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.money50)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.money20)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.money10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.money5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.coinSlotImage)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -243,14 +402,24 @@
         private System.Windows.Forms.Button spriteButton;
         private System.Windows.Forms.Button cokeButton;
         private System.Windows.Forms.Button redBullButton;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label itemBasketTitle;
         private System.Windows.Forms.Button clearButton;
         private System.Windows.Forms.RichTextBox itemBasketRichTextBox;
         private System.Windows.Forms.Button checkoutButton;
         private System.Windows.Forms.Label totalPriceLabelUpdateable;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
+        private System.Windows.Forms.PictureBox coinSlotImage;
+        private System.Windows.Forms.Label totalRemainingLabel;
+        private System.Windows.Forms.PictureBox money1000;
+        private System.Windows.Forms.PictureBox money1;
+        private System.Windows.Forms.PictureBox money5;
+        private System.Windows.Forms.PictureBox money10;
+        private System.Windows.Forms.PictureBox money20;
+        private System.Windows.Forms.PictureBox money50;
+        private System.Windows.Forms.PictureBox money100;
+        private System.Windows.Forms.PictureBox money500;
+        private System.Windows.Forms.PictureBox money2;
     }
 }
 

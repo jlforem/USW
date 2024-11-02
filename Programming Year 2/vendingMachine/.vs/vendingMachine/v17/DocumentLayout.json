@@ -1,18 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jorda\\OneDrive\\Documents\\University of South Wales\\githubRepos\\USW\\Programming Year 2\\vendingMachine\\",
+  "WorkspaceRootPath": "C:\\University of South Wales\\githubRepos\\USW\\Programming Year 2\\vendingMachine\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9A8AAC40-1C02-4197-A525-59425F1DC0D5}|vendingMachine.csproj|C:\\Users\\jorda\\OneDrive\\Documents\\University of South Wales\\githubRepos\\USW\\Programming Year 2\\vendingMachine\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{9A8AAC40-1C02-4197-A525-59425F1DC0D5}|vendingMachine.csproj|c:\\university of south wales\\githubrepos\\usw\\programming year 2\\vendingmachine\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9A8AAC40-1C02-4197-A525-59425F1DC0D5}|vendingMachine.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A8AAC40-1C02-4197-A525-59425F1DC0D5}|vendingMachine.csproj|c:\\users\\jorda\\onedrive\\documents\\university of south wales\\githubrepos\\usw\\programming year 2\\vendingmachine\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9A8AAC40-1C02-4197-A525-59425F1DC0D5}|vendingMachine.csproj|C:\\University of South Wales\\githubRepos\\USW\\Programming Year 2\\vendingMachine\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A8AAC40-1C02-4197-A525-59425F1DC0D5}|vendingMachine.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A8AAC40-1C02-4197-A525-59425F1DC0D5}|vendingMachine.csproj|C:\\University of South Wales\\githubRepos\\USW\\Programming Year 2\\vendingMachine\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A8AAC40-1C02-4197-A525-59425F1DC0D5}|vendingMachine.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A8AAC40-1C02-4197-A525-59425F1DC0D5}|vendingMachine.csproj|c:\\users\\jorda\\onedrive\\documents\\university of south wales\\githubrepos\\usw\\programming year 2\\vendingmachine\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A8AAC40-1C02-4197-A525-59425F1DC0D5}|vendingMachine.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A8AAC40-1C02-4197-A525-59425F1DC0D5}|vendingMachine.csproj|c:\\university of south wales\\githubrepos\\usw\\programming year 2\\vendingmachine\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A8AAC40-1C02-4197-A525-59425F1DC0D5}|vendingMachine.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,49 +26,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\University of South Wales\\githubRepos\\USW\\Programming Year 2\\vendingMachine\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\University of South Wales\\githubRepos\\USW\\Programming Year 2\\vendingMachine\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAANUAAAAAAAAAAAA3wO8AAACVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T17:01:01.748Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\University of South Wales\\githubRepos\\USW\\Programming Year 2\\vendingMachine\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\University of South Wales\\githubRepos\\USW\\Programming Year 2\\vendingMachine\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T21:33:21.822Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\jorda\\OneDrive\\Documents\\University of South Wales\\githubRepos\\USW\\Programming Year 2\\vendingMachine\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\jorda\\OneDrive\\Documents\\University of South Wales\\githubRepos\\USW\\Programming Year 2\\vendingMachine\\Form1.Designer.cs",
-              "RelativeToolTip": "Form1.Designer.cs",
-              "ViewState": "AgIAALYAAAAAAAAAAAArwMoAAABUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T23:19:55.966Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\jorda\\OneDrive\\Documents\\University of South Wales\\githubRepos\\USW\\Programming Year 2\\vendingMachine\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\jorda\\OneDrive\\Documents\\University of South Wales\\githubRepos\\USW\\Programming Year 2\\vendingMachine\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAApwFUAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T17:01:01.748Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\jorda\\OneDrive\\Documents\\University of South Wales\\githubRepos\\USW\\Programming Year 2\\vendingMachine\\Form1.cs",
+              "DocumentMoniker": "C:\\University of South Wales\\githubRepos\\USW\\Programming Year 2\\vendingMachine\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\jorda\\OneDrive\\Documents\\University of South Wales\\githubRepos\\USW\\Programming Year 2\\vendingMachine\\Form1.cs [Design]",
+              "ToolTip": "C:\\University of South Wales\\githubRepos\\USW\\Programming Year 2\\vendingMachine\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-31T16:52:29.424Z",
               "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "bca84458-8d63-4309-80a7-fed4c0196590",
+        "Display": 1,
+        "X": -5,
+        "Y": 228,
+        "Width": 1090,
+        "Height": 784,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\University of South Wales\\githubRepos\\USW\\Programming Year 2\\vendingMachine\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "C:\\University of South Wales\\githubRepos\\USW\\Programming Year 2\\vendingMachine\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AQIAACwBAAAAAAAAAIAwwGYBAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T23:19:55.966Z",
+              "EditorCaption": ""
             }
           ]
         }
