@@ -560,7 +560,7 @@ namespace vendingMachine
             }
             else
             {
-                MessageBox.Show($"That's too much! You have only £{totalRemaining} remaining!");
+                MessageBox.Show($"That's too much! You only have £{totalRemaining} left to pay!");
             }
 
         }
