@@ -37,6 +37,7 @@
             this.spriteButton = new System.Windows.Forms.Button();
             this.cokeButton = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.cancelButton = new System.Windows.Forms.Button();
             this.totalPriceLabelUpdateable = new System.Windows.Forms.Label();
             this.itemBasketRichTextBox = new System.Windows.Forms.RichTextBox();
             this.checkoutButton = new System.Windows.Forms.Button();
@@ -72,6 +73,7 @@
             // tableLayoutPanel1
             // 
             this.tableLayoutPanel1.AutoSize = true;
+            this.tableLayoutPanel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.tableLayoutPanel1.ColumnCount = 3;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
@@ -87,13 +89,13 @@
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(302, 150);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(222, 150);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // redBullButton
             // 
             this.redBullButton.AutoSize = true;
-            this.redBullButton.Location = new System.Drawing.Point(203, 78);
+            this.redBullButton.Location = new System.Drawing.Point(151, 78);
             this.redBullButton.Name = "redBullButton";
             this.redBullButton.Size = new System.Drawing.Size(68, 69);
             this.redBullButton.TabIndex = 5;
@@ -104,7 +106,7 @@
             // lucozadeButton
             // 
             this.lucozadeButton.AutoSize = true;
-            this.lucozadeButton.Location = new System.Drawing.Point(103, 78);
+            this.lucozadeButton.Location = new System.Drawing.Point(77, 78);
             this.lucozadeButton.Name = "lucozadeButton";
             this.lucozadeButton.Size = new System.Drawing.Size(68, 69);
             this.lucozadeButton.TabIndex = 4;
@@ -126,7 +128,7 @@
             // drPepperButton
             // 
             this.drPepperButton.AutoSize = true;
-            this.drPepperButton.Location = new System.Drawing.Point(203, 3);
+            this.drPepperButton.Location = new System.Drawing.Point(151, 3);
             this.drPepperButton.Name = "drPepperButton";
             this.drPepperButton.Size = new System.Drawing.Size(68, 69);
             this.drPepperButton.TabIndex = 2;
@@ -137,7 +139,7 @@
             // spriteButton
             // 
             this.spriteButton.AutoSize = true;
-            this.spriteButton.Location = new System.Drawing.Point(103, 3);
+            this.spriteButton.Location = new System.Drawing.Point(77, 3);
             this.spriteButton.Name = "spriteButton";
             this.spriteButton.Size = new System.Drawing.Size(68, 69);
             this.spriteButton.TabIndex = 1;
@@ -158,6 +160,7 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.cancelButton);
             this.panel1.Controls.Add(this.totalPriceLabelUpdateable);
             this.panel1.Controls.Add(this.itemBasketRichTextBox);
             this.panel1.Controls.Add(this.checkoutButton);
@@ -168,6 +171,16 @@
             this.panel1.Size = new System.Drawing.Size(176, 337);
             this.panel1.TabIndex = 3;
             // 
+            // cancelButton
+            // 
+            this.cancelButton.Location = new System.Drawing.Point(34, 300);
+            this.cancelButton.Name = "cancelButton";
+            this.cancelButton.Size = new System.Drawing.Size(103, 23);
+            this.cancelButton.TabIndex = 6;
+            this.cancelButton.Text = "CANCEL";
+            this.cancelButton.UseVisualStyleBackColor = true;
+            this.cancelButton.Click += new System.EventHandler(this.cancelButton_Click);
+            // 
             // totalPriceLabelUpdateable
             // 
             this.totalPriceLabelUpdateable.AutoSize = true;
@@ -176,7 +189,6 @@
             this.totalPriceLabelUpdateable.Size = new System.Drawing.Size(91, 13);
             this.totalPriceLabelUpdateable.TabIndex = 5;
             this.totalPriceLabelUpdateable.Text = "Total Price: £0.00";
-            this.totalPriceLabelUpdateable.Click += new System.EventHandler(this.totalPriceLabelUpdateable_Click);
             // 
             // itemBasketRichTextBox
             // 
@@ -196,7 +208,7 @@
             this.checkoutButton.TabIndex = 2;
             this.checkoutButton.Text = "CHECKOUT";
             this.checkoutButton.UseVisualStyleBackColor = true;
-            this.checkoutButton.Click += new System.EventHandler(this.checkoutButton_Click);
+            this.checkoutButton.MouseClick += new System.Windows.Forms.MouseEventHandler(this.checkoutButton_MouseClick);
             // 
             // clearButton
             // 
@@ -253,6 +265,7 @@
             this.money2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.money2.TabIndex = 9;
             this.money2.TabStop = false;
+            this.money2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.money2_MouseDown);
             // 
             // money1
             // 
@@ -263,6 +276,7 @@
             this.money1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.money1.TabIndex = 8;
             this.money1.TabStop = false;
+            this.money1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.money1_MouseDown);
             // 
             // money500
             // 
@@ -273,6 +287,7 @@
             this.money500.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.money500.TabIndex = 1;
             this.money500.TabStop = false;
+            this.money500.MouseDown += new System.Windows.Forms.MouseEventHandler(this.money500_MouseDown);
             // 
             // money1000
             // 
@@ -283,7 +298,6 @@
             this.money1000.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.money1000.TabIndex = 0;
             this.money1000.TabStop = false;
-            this.money1000.DragDrop += new System.Windows.Forms.DragEventHandler(this.coinSlotImage_DragDrop);
             this.money1000.MouseDown += new System.Windows.Forms.MouseEventHandler(this.money1000_MouseDown);
             // 
             // money100
@@ -295,8 +309,7 @@
             this.money100.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.money100.TabIndex = 3;
             this.money100.TabStop = false;
-            this.money100.DragDrop += new System.Windows.Forms.DragEventHandler(this.coinSlotImage_DragDrop);
-            this.money100.DragLeave += new System.EventHandler(this.money100_dragdrop);
+            this.money100.MouseDown += new System.Windows.Forms.MouseEventHandler(this.money100_MouseDown);
             // 
             // money50
             // 
@@ -307,6 +320,7 @@
             this.money50.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.money50.TabIndex = 4;
             this.money50.TabStop = false;
+            this.money50.MouseDown += new System.Windows.Forms.MouseEventHandler(this.money50_MouseDown);
             // 
             // money20
             // 
@@ -317,6 +331,7 @@
             this.money20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.money20.TabIndex = 5;
             this.money20.TabStop = false;
+            this.money20.MouseDown += new System.Windows.Forms.MouseEventHandler(this.money20_MouseDown);
             // 
             // money10
             // 
@@ -327,6 +342,7 @@
             this.money10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.money10.TabIndex = 6;
             this.money10.TabStop = false;
+            this.money10.MouseDown += new System.Windows.Forms.MouseEventHandler(this.money10_MouseDown);
             // 
             // money5
             // 
@@ -337,27 +353,26 @@
             this.money5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.money5.TabIndex = 7;
             this.money5.TabStop = false;
+            this.money5.MouseDown += new System.Windows.Forms.MouseEventHandler(this.money5_MouseDown);
             // 
             // totalRemainingLabel
             // 
             this.totalRemainingLabel.AutoSize = true;
-            this.totalRemainingLabel.Location = new System.Drawing.Point(220, 352);
+            this.totalRemainingLabel.Location = new System.Drawing.Point(234, 309);
             this.totalRemainingLabel.Name = "totalRemainingLabel";
-            this.totalRemainingLabel.Size = new System.Drawing.Size(117, 13);
+            this.totalRemainingLabel.Size = new System.Drawing.Size(90, 26);
             this.totalRemainingLabel.TabIndex = 7;
-            this.totalRemainingLabel.Text = "Total Remaining: £?.??";
-            this.totalRemainingLabel.Click += new System.EventHandler(this.totalRemainingLabel_Click);
+            this.totalRemainingLabel.Text = "Total Remaining: \r\n         £?.??";
             // 
             // coinSlotImage
             // 
             this.coinSlotImage.Image = ((System.Drawing.Image)(resources.GetObject("coinSlotImage.Image")));
-            this.coinSlotImage.Location = new System.Drawing.Point(239, 225);
+            this.coinSlotImage.Location = new System.Drawing.Point(239, 173);
             this.coinSlotImage.Name = "coinSlotImage";
             this.coinSlotImage.Size = new System.Drawing.Size(80, 124);
             this.coinSlotImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.coinSlotImage.TabIndex = 5;
             this.coinSlotImage.TabStop = false;
-            this.coinSlotImage.Click += new System.EventHandler(this.pictureBox1_Click);
             this.coinSlotImage.DragDrop += new System.Windows.Forms.DragEventHandler(this.coinSlotImage_DragDrop);
             this.coinSlotImage.DragEnter += new System.Windows.Forms.DragEventHandler(this.coinSlotImage_DragEnter);
             // 
@@ -420,6 +435,7 @@
         private System.Windows.Forms.PictureBox money100;
         private System.Windows.Forms.PictureBox money500;
         private System.Windows.Forms.PictureBox money2;
+        private System.Windows.Forms.Button cancelButton;
     }
 }
 
