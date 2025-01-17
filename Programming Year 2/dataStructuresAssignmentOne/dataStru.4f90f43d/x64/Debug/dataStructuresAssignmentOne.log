@@ -1,0 +1,12 @@
+﻿  17033128.cpp
+C:\Users\jorda\source\repos\dataStructuresAssignmentOne\17033128.cpp(470,82): warning C4244: '=': conversion from '_Rep' to 'int', possible loss of data
+C:\Users\jorda\source\repos\dataStructuresAssignmentOne\17033128.cpp(470,82): warning C4244:         with
+C:\Users\jorda\source\repos\dataStructuresAssignmentOne\17033128.cpp(470,82): warning C4244:         [
+C:\Users\jorda\source\repos\dataStructuresAssignmentOne\17033128.cpp(470,82): warning C4244:             _Rep=__int64
+C:\Users\jorda\source\repos\dataStructuresAssignmentOne\17033128.cpp(470,82): warning C4244:         ]
+C:\Users\jorda\source\repos\dataStructuresAssignmentOne\17033128.cpp(487,82): warning C4244: '=': conversion from '_Rep' to 'int', possible loss of data
+C:\Users\jorda\source\repos\dataStructuresAssignmentOne\17033128.cpp(487,82): warning C4244:         with
+C:\Users\jorda\source\repos\dataStructuresAssignmentOne\17033128.cpp(487,82): warning C4244:         [
+C:\Users\jorda\source\repos\dataStructuresAssignmentOne\17033128.cpp(487,82): warning C4244:             _Rep=__int64
+C:\Users\jorda\source\repos\dataStructuresAssignmentOne\17033128.cpp(487,82): warning C4244:         ]
+  dataStructuresAssignmentOne.vcxproj -> C:\Users\jorda\source\repos\dataStructuresAssignmentOne\x64\Debug\dataStructuresAssignmentOne.exe
